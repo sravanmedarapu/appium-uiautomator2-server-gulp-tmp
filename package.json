@@ -1,0 +1,27 @@
+{
+  "name": "appium-uiautomator2-server-test-1",
+  "version": "0.0.29",
+  "description": "A netty server with uiautomator2 handlers",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "gradle clean assembleServerDebug assembleServerDebugAndroidTest && gulp copy_apks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appium/appium-uiautomator2-server"
+  },
+  "keywords": [
+    "appium",
+    "android",
+    "uiautomator2"
+  ],
+  "author": "https://github.com/appium",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/appium/appium-uiautomator2-server/issues"
+  },
+  "dependencies": {
+    "gulp-shell": "^0.5.2"
+  },
+  "homepage": "https://github.com/appium/appium-uiautomator2-server"
+  }
